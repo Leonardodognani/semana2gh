@@ -6,8 +6,7 @@
 * MySQL HOME
 * MySQL Intro
 * MySQL RDBMS
-
-* MySQL SQL
+## 
 * MySQL SQL
 * MySQL SELECT
 * MySQL WHERE
