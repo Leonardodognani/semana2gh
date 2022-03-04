@@ -1,4 +1,4 @@
-# :book: MySql stugiyng :book:
+# :book: MySql studying :book:
 ## Estudos de MySql
 
 ### Visto até agora:
