@@ -30,7 +30,7 @@ Atualmente estudando pelo tutorial do W3school e em pouco tempo estarei criando 
 exercícios aqui.
 */
 
-O que já foi lido:
+/*O que já foi lido:
 
 MySQL Tutorial
 MySQL HOME
@@ -70,3 +70,12 @@ MySQL CASE
 MySQL Null Functions
 MySQL Comments
 MySQL Operators
+
+MySQL Database
+* MySQL Drop DB
+* MySQL Create DB
+* MySQL Drop Table
+* MySQL Create Table
+* MySQL Alter Table
+
+*/

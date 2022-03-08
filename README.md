@@ -40,3 +40,10 @@
 * MySQL Null Functions
 * MySQL Comments
 * MySQL Operators
+
+### MySQL Database
+* MySQL Drop DB
+* MySQL Create DB
+* MySQL Drop Table
+* MySQL Create Table
+* MySQL Alter Table
