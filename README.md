@@ -32,3 +32,11 @@
 * MySQL Self Join
 * MySQL UNION
 * MySQL GROUP BY
+* MySQL HAVING
+* MySQL EXISTS
+* MySQL ANY, ALL
+* MySQL INSERT SELECT
+* MySQL CASE
+* MySQL Null Functions
+* MySQL Comments
+* MySQL Operators
