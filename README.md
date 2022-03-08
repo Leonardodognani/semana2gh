@@ -59,3 +59,24 @@
 * MySQL Dates
 * MySQL Views
 
+## Será feito um Projeto de uma livraria, como exemplo para usar e ver os conceitos de DB.
+
+### Tabelas e os dados da tabela:
+#### Table Clients
+* ClientID
+* Name
+* CPF
+* Date of Birth
+* Adress
+* City
+* Country
+
+
+#### Table Books
+* BookID
+* Title
+* Author
+* Publisher
+* Year
+* Genres
+* Price
