@@ -72,21 +72,21 @@ MySQL Comments
 MySQL Operators
 
 MySQL Database
-* MySQL Drop DB
-* MySQL Create DB
-* MySQL Drop Table
-* MySQL Create Table
-* MySQL Alter Table
-* MySQL Constraints
-* MySQL Not Null
-* MySQL Unique
-* MySQL Primary Key
-* MySQL Foreign Key
-* MySQL Check
-* MySQL Default
-* MySQL Create Index
-* MySQL Auto Increment
-* MySQL Dates
-* MySQL Views
+MySQL Drop DB
+MySQL Create DB
+MySQL Drop Table
+MySQL Create Table
+MySQL Alter Table
+MySQL Constraints
+MySQL Not Null
+MySQL Unique
+MySQL Primary Key
+MySQL Foreign Key
+MySQL Check
+MySQL Default
+MySQL Create Index
+MySQL Auto Increment
+MySQL Dates
+MySQL Views
 
 */
