@@ -64,7 +64,8 @@
 ### Tabelas e os dados da tabela:
 #### Table Clients
 * ClientID
-* Name
+* FirstName
+* LastName
 * CPF
 * Date of Birth
 * Adress
