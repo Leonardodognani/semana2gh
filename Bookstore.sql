@@ -74,19 +74,31 @@ INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
 VALUES ('Cardinal', 'The Black Toad', 'Gemma Gary', 'Troy Books', '2012', 'Occultism', '125.00');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'O Anticristo', 'Nietzsche', 'Centauro Editora', '2010', 'Philosophy', '21.80');
+VALUES ('Cardinal', 'O Anticristo', 'Nietzsche', 'Centauro Editora', '2010', 'German Philosophy', '21.80');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
 VALUES ('Cardinal', 'O Mito da Caverna', 'Platão', 'Edipro', '2016', 'Philosophy', '20.25');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'O Existencialismo é um Humanismo', 'Jean-Paul Sartre', 'Vozes de Bolso', '2014', 'Philosophy', '15.00');
+VALUES ('Cardinal', 'O Existencialismo é um Humanismo', 'Jean-Paul Sartre', 'Vozes de Bolso', '2014', 'French Philosophy', '15.00');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Children of Cain, A Study of Modern Traditional Witches', 'Michael Howard', 'Three Hand Press', '2011', 'Occultism', '');
+VALUES ('Cardinal', 'Children of Cain, A Study of Modern Traditional Witches', 'Michael Howard', 'Three Hand Press', '2011', 'Occultism', '242.20');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'Os Sofrimentos do Jovem Werther', 'J.W. Goethe', 'Abril Coleções', '2010', 'German Literature', '29.90');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'O Retrato de Dorian Gray', 'Oscar Wilde', 'Abril Coleções', '2010', 'English Literature', '29.90');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'A Divina COmédia, Inferno', 'Dante Alighieri', 'Abril Coleções', '2010', 'Italian Literature', '29.90');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Madame Bovary', 'Gustave Flaubert', 'Abril Coleções', '2010', 'French Literature', '29.90');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Macbeth', 'Wlliam Shakespeare', 'Nova Fronteira', '2017', 'English Theatre', '9.90');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Histórias Extraordinárias', 'Edgar Allan Poe', 'Abril', '1981', 'North-america Literature', '29.90');
