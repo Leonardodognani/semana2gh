@@ -62,28 +62,28 @@ CREATE TABLE Clients(
 );
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', 'Intríseca', '2016', 'Ficção', '29.90');
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', 'Intríseca', '2016', 'Fiction', '29.90');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Sorcerers Screed, The Icelandic Book of Magic Spells', 'Skuggi - Jochum Magnús Eggertsson', 'The Icelandic Magic Company', '2015', 'History, Esoteric', '159.85');
+VALUES ('Cardinal', 'Sorcerers Screed, The Icelandic Book of Magic Spells', 'Skuggi - Jochum Magnús Eggertsson', 'The Icelandic Magic Company', '2015', 'Occultism', '159.85');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'Tartaros', 'Johan August Alm', 'Three Hand Press', '2013', 'Occultism', '399.72');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'The Black Toad', 'Gemma Gary', 'Troy Books', '2012', 'Occultism', '125.00');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'O Anticristo', 'Nietzsche', 'Centauro Editora', '2010', 'Philosophy', '21.80');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'O Mito da Caverna', 'Platão', 'Edipro', '2016', 'Philosophy', '20.25');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'O Existencialismo é um Humanismo', 'Jean-Paul Sartre', 'Vozes de Bolso', '2014', 'Philosophy', '15.00');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
-VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+VALUES ('Cardinal', 'Children of Cain, A Study of Modern Traditional Witches', 'Michael Howard', 'Three Hand Press', '2011', 'Occultism', '');
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
 VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
