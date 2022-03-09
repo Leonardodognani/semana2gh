@@ -47,7 +47,7 @@ CREATE TABLE Books(
     Publisher varchar(255),
     Year smallint,
     Genres varchar(255),
-    Price int,
+    Price decimal,
 );
 
 CREATE TABLE Clients(
@@ -60,3 +60,33 @@ CREATE TABLE Clients(
     City varchar(255),
     Country varchar(255),
 );
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', 'Intríseca', '2016', 'Ficção', '29.90');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Sorcerers Screed, The Icelandic Book of Magic Spells', 'Skuggi - Jochum Magnús Eggertsson', 'The Icelandic Magic Company', '2015', 'History, Esoteric', '159.85');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
+
+INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
+VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', '', '', '', '');
