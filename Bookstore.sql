@@ -36,6 +36,8 @@ Table Books
 */
 
 
+
+
 CREATE DATABASE Bookstore;
 
 USE Bookstore;
@@ -54,12 +56,14 @@ CREATE TABLE Clients(
     ClientID int,
     FirstName varchar(255),
     LastName varchar(255),
-    CPF int,
+    CPF varchar(255),
     DateOfBirth DATE,
     Adress varchar(255),
     City varchar(255),
     Country varchar(255),
 );
+
+--Aqui começa a inserção de Livros da loja.
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
 VALUES ('Cardinal', 'Deuses Americanos', 'Neil Gaiman', 'Intríseca', '2016', 'Fiction', '29.90');
@@ -102,3 +106,37 @@ VALUES ('Cardinal', 'Macbeth', 'Wlliam Shakespeare', 'Nova Fronteira', '2017', '
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
 VALUES ('Cardinal', 'Histórias Extraordinárias', 'Edgar Allan Poe', 'Abril', '1981', 'North-america Literature', '29.90');
+
+
+-- Aqui começa a inserção de dados dos CLientes de exemplo.
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Letícia', 'Barros', '78945612377', '01/02/1996', 'Rua Treze, 6 - Formosa', 'Gostosura', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Gordão', 'Cat', '12312312366', '01/02/2016', 'Rua Quinze, 456 - Catville', 'Recanto dos gatos', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Princesa', 'Kitty', '36925814711', '01/02/2015', 'Rua do mato, 2 - Catville', 'Recanto dos gatos', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+
