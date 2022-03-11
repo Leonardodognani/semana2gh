@@ -1,21 +1,3 @@
-/*
-Fundamentos Banco de dados	
-Create Table                OK
-Alter Table,
-Create View,
-Alter View,
-Foreign Keys DDL
-
-Insert,                     OK
-Select,
-Delete,
-Update	DML
-
-Join,
-Left Join,
-Subselects	DML
-
-*/
 
 CREATE DATABASE Bookstore;
 
