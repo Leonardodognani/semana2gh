@@ -112,10 +112,26 @@ ADD Email varchar(255);
 SELECT * FROM Clients
 WHERE FirsName LIKE 'L%';
 
--- View
+-- VIEW
 
 CREATE VIEW [SP Clients] AS 
 SELECT FirstName 
 FROM Clients 
 WHERE UF = 'SP';
+
+REPLACE VIEW [CE Clients] AS 
+SELECT FirstName 
+FROM Clients 
+WHERE UF = 'CE';
+
+-- DELETE
+
+DELETE FROM Clients
+WHERE FirstName IS NULL;
+
+-- UPDATE
+
+UPDATE Clients
+SET email = 'satanas666@diabo.com.br'
+WHERE ClienteID = 1;
 

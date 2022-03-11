@@ -86,19 +86,19 @@
 ### Comandos a serem executados
 #### Fundamentos Banco de dados	
 #### DDL
-* Create Table                OK
-* Alter Table,                OK    
-* Create View,                OK
-* Alter View,
+* Create Table              OK
+* Alter Table               OK    
+* Create View               OK
+* Alter View                OK
 * Foreign Keys
 
 #### DML
-* Insert,                     OK
-* Select,                     OK
-* Delete,
-* Update
+* Insert                    OK
+* Select                    OK
+* Delete                    OK
+* Update                    OK
 
 #### DML
-* Join,
-* Left Join,
+* Join
+* Left Join
 * Subselects
