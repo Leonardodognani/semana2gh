@@ -81,3 +81,24 @@
 * Year
 * Genres
 * Price
+
+
+### Comandos a serem executados
+#### Fundamentos Banco de dados	
+#### DDL
+* Create Table                OK
+* Alter Table,
+* Create View,
+* Alter View,
+* Foreign Keys
+
+#### DML
+* Insert,                     OK
+* Select,
+* Delete,
+* Update
+
+#### DML
+* Join,
+* Left Join,
+* Subselects
