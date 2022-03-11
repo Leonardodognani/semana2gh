@@ -135,3 +135,7 @@ UPDATE Clients
 SET email = 'satanas666@diabo.com.br'
 WHERE ClienteID = 1;
 
+--FOREIGN KEY
+
+ALTER TABLE Books
+ADD FOREIGN KEY (ClientID) REFERENCES Clients(ClientID);
