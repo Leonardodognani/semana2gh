@@ -1,42 +1,21 @@
 /*
 Fundamentos Banco de dados	
-Create Table, Alter Table, Create View, Alter View, Foreign Keys	DDL
+Create Table                OK
+Alter Table,
+Create View,
+Alter View,
+Foreign Keys DDL
 
-Insert, Select, Delete, Update	DML
+Insert,                     OK
+Select,
+Delete,
+Update	DML
 
-Join, Left Join, Subselects	DML
-
-
-/*
-
-Projeto de uma livraria, como exemplo para usar e ver os conceitos dde DB.
-
-Tabelas e os dados da tabela:
-
-Table Clients
--ClientID
--FirstName
--LastName
--CPF
--Date of Birth
--Adress
--City
--Country
-
-
-Table Books
--BookID
--Title
--Author
--Publisher
--Year
--Genres
--Price
+Join,
+Left Join,
+Subselects	DML
 
 */
-
-
-
 
 CREATE DATABASE Bookstore;
 
@@ -60,6 +39,7 @@ CREATE TABLE Clients(
     DateOfBirth DATE,
     Adress varchar(255),
     City varchar(255),
+    UF varchar(255),
     Country varchar(255),
 );
 
@@ -110,33 +90,33 @@ VALUES ('Cardinal', 'Histórias Extraordinárias', 'Edgar Allan Poe', 'Abril', '
 
 -- Aqui começa a inserção de dados dos CLientes de exemplo.
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'SP', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Letícia', 'Barros', '78945612377', '01/02/1996', 'Rua Treze, 6 - Formosa', 'Gostosura', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Letícia', 'Barros', '78945612377', '01/02/1996', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'SP', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Gordão', 'Cat', '12312312366', '01/02/2016', 'Rua Quinze, 456 - Catville', 'Recanto dos gatos', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Gordão', 'Cat', '12312312366', '01/02/2016', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'SP', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Princesa', 'Kitty', '36925814711', '01/02/2015', 'Rua do mato, 2 - Catville', 'Recanto dos gatos', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Princesa', 'Kitty', '36925814711', '01/02/2015', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'SP', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Lucifer', 'Morningstar', '12655678901', '01/02/1965', 'Rua da luz, 666 - Lux', 'Rio de Janeiro', 'RJ', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Lilith', 'Dominatrix', '23434566690', '01/02/1966', 'Av. Primeira Mulher, 480 - Gênesis', 'Manaus', 'AM', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Samael', 'Poisonheart', '34552478913', '01/02/1995', 'Rua da Revolta, 18 - Saudade', 'João Pessoa', 'PB', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Qayin', 'Firesoul', '19545611322', '01/02/1991', 'Rua da Rebelião, 999 - Arado', 'Monte Verde', 'MG', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Naamah', 'Lilitu', '16323111320', '01/02/1980', 'Rua da Tecelã, 13 - Bairro das Aranhas', 'Fortaleza', 'CE', 'Brasil');
 
-INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, Country)
-VALUES ('Cardinal', 'Leonardo', 'Dognani', '12345678900', '01/02/1985', 'Rua Onze, 2 - Vila Lobo', 'Piracicaba', 'Brasil');
+INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
+VALUES ('Cardinal', 'Astaroth', 'Starlight', '25454618018', '01/02/1973', 'Rua das Deusas, 9 - Nossa Senhora', 'Palmas', 'TO', 'Brasil');
 
