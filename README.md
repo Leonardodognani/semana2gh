@@ -100,6 +100,6 @@
 * Update         ok
 
 #### DML
-* Join
+* Join           ok
 * Left Join
 * Subselects

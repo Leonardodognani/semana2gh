@@ -139,3 +139,10 @@ WHERE ClienteID = 1;
 
 ALTER TABLE Books
 ADD FOREIGN KEY (ClientID) REFERENCES Clients(ClientID);
+
+--JOIN (INNER JOIN)
+
+SELECT Clients.ClientsID, Clients.FirstName, Books.Title, Books.Price
+FROM Clients
+INNER JOIN Books
+ON Clients.BookID=Books.BookID;
