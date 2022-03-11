@@ -102,3 +102,20 @@ VALUES ('Cardinal', 'Naamah', 'Lilitu', '16323111320', '01/02/1980', 'Rua da Tec
 INSERT INTO Clients (ClientID, FirstName, LastName, CPF, DateOfBirth, Adress, City, UF, Country)
 VALUES ('Cardinal', 'Astaroth', 'Starlight', '25454618018', '01/02/1973', 'Rua das Deusas, 9 - Nossa Senhora', 'Palmas', 'TO', 'Brasil');
 
+-- Comando para alteração de tabelas, como ADD, MODIFY e DROP
+
+ALTER TABLE Clients
+ADD Email varchar(255);
+
+--SELECT
+
+SELECT * FROM Clients
+WHERE FirsName LIKE 'L%';
+
+-- View
+
+CREATE VIEW [SP Clients] AS 
+SELECT FirstName 
+FROM Clients 
+WHERE UF = 'SP';
+

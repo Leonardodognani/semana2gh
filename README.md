@@ -87,14 +87,14 @@
 #### Fundamentos Banco de dados	
 #### DDL
 * Create Table                OK
-* Alter Table,
-* Create View,
+* Alter Table,                OK    
+* Create View,                OK
 * Alter View,
 * Foreign Keys
 
 #### DML
 * Insert,                     OK
-* Select,
+* Select,                     OK
 * Delete,
 * Update
 
