@@ -114,7 +114,7 @@ WHERE FirsName LIKE 'L%';
 
 -- VIEW
 
-CREATE VIEW [SP Clients] AS 
+CREATE VIEW [SP Clients] AS
 SELECT FirstName 
 FROM Clients 
 WHERE UF = 'SP';
@@ -142,7 +142,20 @@ ADD FOREIGN KEY (ClientID) REFERENCES Clients(ClientID);
 
 --JOIN (INNER JOIN)
 
-SELECT Clients.ClientsID, Clients.FirstName, Books.Title, Books.Price
+SELECT Clients.ClientID, Clients.FirstName, Books.Title, Books.Price
 FROM Clients
 INNER JOIN Books
 ON Clients.BookID=Books.BookID;
+
+--LEFT JOIN
+
+SELECT Clients.FirstName, Books.BookID
+FROM Clients
+LEFT JOIN Books ON Clients.ClientID = Books.BookID
+ORDER BY Clients.FirstName
+
+--SUBSELECT (SUBQUERY)
+
+SELECT Tittle, Author, Price
+FROM Books
+WHERE BookID = (SELECT BookID FROM Books WHERE Publisher = 'Abril Coleções');

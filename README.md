@@ -101,5 +101,5 @@
 
 #### DML
 * Join           ok
-* Left Join
-* Subselects
+* Left Join      ok
+* Subselects     ok
