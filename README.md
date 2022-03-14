@@ -83,9 +83,9 @@
 * Price
 
 
-### Comandos a serem executados
+### Comandos a serem praticados
 
-#### Fundamentos Banco de dados	
+#### Fundamentos de Banco de dados	
 #### DDL
 * Create Table   
 * Alter Table    
