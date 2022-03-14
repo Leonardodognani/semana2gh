@@ -87,19 +87,19 @@
 
 #### Fundamentos Banco de dados	
 #### DDL
-* Create Table   ok
-* Alter Table    ok    
-* Create View    ok
-* Alter View     ok
-* Foreign Keys   ok
+* Create Table   
+* Alter Table    
+* Create View    
+* Alter View     
+* Foreign Keys   
 
 #### DML
-* Insert         ok
-* Select         ok
-* Delete         ok
-* Update         ok
+* Insert         
+* Select         
+* Delete         
+* Update         
 
 #### DML
-* Join           ok
-* Left Join      ok
-* Subselects     ok
+* Join           
+* Left Join      
+* Subselects     
