@@ -4,7 +4,7 @@ CREATE DATABASE Bookstore;
 USE Bookstore;
 
 CREATE TABLE Books(
-    BookID int,
+    BookID int, -- criar chaver primaria auto incremento.
     Title varchar(255),
     Author varchar(255),
     Publisher varchar(255),
@@ -14,7 +14,7 @@ CREATE TABLE Books(
 );
 
 CREATE TABLE Clients(
-    ClientID int,
+    ClientID int, --criar chaver primaria auto incremento.
     FirstName varchar(255),
     LastName varchar(255),
     CPF varchar(255),
@@ -25,6 +25,18 @@ CREATE TABLE Clients(
     Country varchar(255),
 );
 
+/*
+Tabela Pedido
+OrderID 
+Data
+Cliente
+relacionamento n pra n
+
+ pesquisar pedido com mais de um item
+
+
+
+*/
 --Aqui começa a inserção de Livros da loja.
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
