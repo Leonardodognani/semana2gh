@@ -103,3 +103,6 @@
 * Join           
 * Left Join      
 * Subselects     
+
+
+-Ainda em planejamento e estudo, de forma a fazer uma tabela mais próxima de uma real.

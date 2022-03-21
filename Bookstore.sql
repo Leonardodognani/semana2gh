@@ -17,12 +17,12 @@ CREATE TABLE Clients(
     ClientID int, --criar chaver primaria auto incremento.
     FirstName varchar(255),
     LastName varchar(255),
-    CPF varchar(255),
-    DateOfBirth DATE,
-    Adress varchar(255),
-    City varchar(255),
-    UF varchar(255),
-    Country varchar(255),
+    CPF varchar(255), --poderá ser nulo
+    DateOfBirth DATE, 
+    Adress varchar(255), --poderá ser nulo
+    City varchar(255), --poderá ser nulo
+    UF varchar(255),    --poderá ser nulo
+    Country varchar(255), --poderá ser nulo
 );
 
 /*
@@ -30,9 +30,16 @@ Tabela Pedido
 OrderID 
 Data
 Cliente
+
+
 relacionamento n pra n
 
- pesquisar pedido com mais de um item
+O que a tabela deve fazer:
+-pesquisar pedido com mais de um item;
+-saber a data do numero de compras;
+-quantos ou quais tipos de livros foram vendidos em algum período;
+-saber uma media ou quais tipos de outros dados por idade dos clientes;
+
 
 
 
