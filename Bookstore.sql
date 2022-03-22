@@ -25,13 +25,14 @@ CREATE TABLE Clients(
     Country varchar(255), --poderá ser nulo
 );
 
+
+CREATE TABLE Order(
+    OrderID int, --criar chaver primaria auto incremento.
+    Data DATE,
+    ClientName varchar(255),
+);
+
 /*
-Tabela Pedido
-OrderID 
-Data
-Cliente
-
-
 relacionamento n pra n
 
 O que a tabela deve fazer:
@@ -44,6 +45,7 @@ O que a tabela deve fazer:
 
 
 */
+
 --Aqui começa a inserção de Livros da loja.
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)
