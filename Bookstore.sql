@@ -5,31 +5,32 @@ USE Bookstore;
 
 CREATE TABLE Books(
     BookID int, -- criar chaver primaria auto incremento.
-    Title varchar(255),
-    Author varchar(255),
-    Publisher varchar(255),
-    Year smallint,
-    Genres varchar(255),
-    Price decimal,
+    Title varchar(255) NOT NULL,
+    Author varchar(255) NOT NULL,
+    Publisher varchar(255) NOT NULL,
+    Year smallint NOT NULL,
+    Genres varchar(255) NOT NULL,
+    Price decimal NOT NULL,
 );
 
 CREATE TABLE Clients(
     ClientID int, --criar chaver primaria auto incremento.
-    FirstName varchar(255),
-    LastName varchar(255),
-    CPF varchar(255), --poderá ser nulo
-    DateOfBirth DATE, 
-    Adress varchar(255), --poderá ser nulo
-    City varchar(255), --poderá ser nulo
-    UF varchar(255),    --poderá ser nulo
-    Country varchar(255), --poderá ser nulo
+    FirstName varchar(255) NOT NULL, 
+    LastName varchar(255) NOT NULL,
+    CPF varchar(255), 
+    DateOfBirth DATE NOT NULL, 
+    Adress varchar(255), 
+    City varchar(255),
+    UF varchar(255),   
+    Country varchar(255),
 );
 
 
-CREATE TABLE Order(
+CREATE TABLE Orders(
     OrderID int, --criar chaver primaria auto incremento.
-    Data DATE,
-    ClientName varchar(255),
+    OrderDate Date NOT NULL,
+    ClientName varchar(255) NOT NULL,
+    ProductName varchar(255) NOT NULL,
 );
 
 /*
