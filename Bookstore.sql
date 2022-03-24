@@ -4,17 +4,18 @@ CREATE DATABASE Bookstore;
 USE Bookstore;
 
 CREATE TABLE Books(
-    BookID int, -- criar chaver primaria auto incremento.
+    BookID int NOT NULL AUTO_INCREMENT,
     Title varchar(255) NOT NULL,
     Author varchar(255) NOT NULL,
     Publisher varchar(255) NOT NULL,
     Year smallint NOT NULL,
     Genres varchar(255) NOT NULL,
     Price decimal NOT NULL,
+    PRIMARY KEY(BookID),
 );
 
 CREATE TABLE Clients(
-    ClientID int, --criar chaver primaria auto incremento.
+    ClientID int NOT NULL AUTO_INCREMENT,
     FirstName varchar(255) NOT NULL, 
     LastName varchar(255) NOT NULL,
     CPF varchar(255), 
@@ -23,6 +24,7 @@ CREATE TABLE Clients(
     City varchar(255),
     UF varchar(255),   
     Country varchar(255),
+    PRIMARY KEY(ClientID,
 );
 
 
