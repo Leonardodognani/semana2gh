@@ -27,10 +27,10 @@ CREATE TABLE Clients(
 
 
 CREATE TABLE Orders(
-    OrderID int, --criar chaver primaria auto incremento.
-    OrderDate Date NOT NULL,
+    OrderID int NOT NULL AUTO_INCREMENT,
     ClientName varchar(255) NOT NULL,
     ProductName varchar(255) NOT NULL,
+    PRIMARY KEY(OrderID),
 );
 
 /*
