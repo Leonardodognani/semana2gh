@@ -4,34 +4,34 @@ CREATE DATABASE Bookstore;
 USE Bookstore;
 
 CREATE TABLE Books(
-    BookID int NOT NULL AUTO_INCREMENT,
-    Title varchar(255) NOT NULL,
-    Author varchar(255) NOT NULL,
-    Publisher varchar(255) NOT NULL,
+    BookID int  NOT NULL AUTO_INCREMENT,
+    Title varchar NOT NULL,
+    Author varchar NOT NULL,
+    Publisher varchar NOT NULL,
     Year smallint NOT NULL,
-    Genres varchar(255) NOT NULL,
-    Price decimal NOT NULL,
+    Genres varchar NOT NULL,
+    Price decimal,
     PRIMARY KEY(BookID),
 );
 
 CREATE TABLE Clients(
     ClientID int NOT NULL AUTO_INCREMENT,
-    FirstName varchar(255) NOT NULL, 
-    LastName varchar(255) NOT NULL,
-    CPF varchar(255), 
+    FirstName varchar NOT NULL, 
+    LastName varchar NOT NULL,
+    CPF varchar, 
     DateOfBirth DATE NOT NULL, 
-    Adress varchar(255), 
-    City varchar(255),
-    UF varchar(255),   
-    Country varchar(255),
+    Adress varchar, 
+    City varchar,
+    UF varchar,   
+    Country varchar,
     PRIMARY KEY(ClientID,
 );
 
 
 CREATE TABLE Orders(
     OrderID int NOT NULL AUTO_INCREMENT,
-    ClientName varchar(255) NOT NULL,
-    ProductName varchar(255) NOT NULL,
+    ClientName varchar NOT NULL,
+    ProductName varchar NOT NULL,
     PRIMARY KEY(OrderID),
 );
 
