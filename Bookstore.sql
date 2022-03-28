@@ -24,7 +24,7 @@ CREATE TABLE Clients(
     City varchar,
     UF varchar,   
     Country varchar,
-    PRIMARY KEY(ClientID,
+    PRIMARY KEY(ClientID),
 );
 
 
@@ -32,6 +32,7 @@ CREATE TABLE Orders(
     OrderID int NOT NULL AUTO_INCREMENT,
     ClientName varchar NOT NULL,
     ProductName varchar NOT NULL,
+    OrderDate DATE NOT NULL,
     PRIMARY KEY(OrderID),
 );
 
