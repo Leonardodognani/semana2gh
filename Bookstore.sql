@@ -36,20 +36,6 @@ CREATE TABLE Orders(
     PRIMARY KEY(OrderID),
 );
 
-/*
-relacionamento n pra n
-
-O que a tabela deve fazer:
--pesquisar pedido com mais de um item;
--saber a data do numero de compras;
--quantos ou quais tipos de livros foram vendidos em algum período;
--saber uma media ou quais tipos de outros dados por idade dos clientes;
-
-
-
-
-*/
-
 --Aqui começa a inserção de Livros da loja.
 
 INSERT INTO Books (BookID, Title, Author, Publisher, Year, Genres, Price)

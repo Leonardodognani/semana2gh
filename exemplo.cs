@@ -1,1 +1,1 @@
-Console.Write("Hello my First DataBase CLass!");
+Console.Write("Hello! This is my First DataBase CLass!");
